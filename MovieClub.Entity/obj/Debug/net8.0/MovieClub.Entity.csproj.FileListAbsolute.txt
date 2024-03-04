@@ -1,0 +1,11 @@
+C:\Users\Novin\source\repos\MovieClub\MovieClub.Entity\bin\Debug\net8.0\MovieClub.Entity.deps.json
+C:\Users\Novin\source\repos\MovieClub\MovieClub.Entity\bin\Debug\net8.0\MovieClub.Entity.dll
+C:\Users\Novin\source\repos\MovieClub\MovieClub.Entity\bin\Debug\net8.0\MovieClub.Entity.pdb
+C:\Users\Novin\source\repos\MovieClub\MovieClub.Entity\obj\Debug\net8.0\MovieClub.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Novin\source\repos\MovieClub\MovieClub.Entity\obj\Debug\net8.0\MovieClub.Entity.AssemblyInfoInputs.cache
+C:\Users\Novin\source\repos\MovieClub\MovieClub.Entity\obj\Debug\net8.0\MovieClub.Entity.AssemblyInfo.cs
+C:\Users\Novin\source\repos\MovieClub\MovieClub.Entity\obj\Debug\net8.0\MovieClub.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Novin\source\repos\MovieClub\MovieClub.Entity\obj\Debug\net8.0\MovieClub.Entity.dll
+C:\Users\Novin\source\repos\MovieClub\MovieClub.Entity\obj\Debug\net8.0\refint\MovieClub.Entity.dll
+C:\Users\Novin\source\repos\MovieClub\MovieClub.Entity\obj\Debug\net8.0\MovieClub.Entity.pdb
+C:\Users\Novin\source\repos\MovieClub\MovieClub.Entity\obj\Debug\net8.0\ref\MovieClub.Entity.dll

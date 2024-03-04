@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MovieClub.Service/1.0.0": {
+        "dependencies": {
+          "MovieClub.Contracts": "1.0.0",
+          "MovieClub.Entity": "1.0.0"
+        },
+        "runtime": {
+          "MovieClub.Service.dll": {}
+        }
+      },
+      "MovieClub.Contracts/1.0.0": {
+        "runtime": {
+          "MovieClub.Contracts.dll": {}
+        }
+      },
+      "MovieClub.Entity/1.0.0": {
+        "runtime": {
+          "MovieClub.Entity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MovieClub.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MovieClub.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MovieClub.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

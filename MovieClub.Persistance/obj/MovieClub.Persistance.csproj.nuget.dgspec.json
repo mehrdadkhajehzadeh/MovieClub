@@ -1,0 +1,245 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Novin\\source\\repos\\MovieClub\\MovieClub.Persistance\\MovieClub.Persistance.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Novin\\source\\repos\\MovieClub\\MovieClub.Contracts\\MovieClub.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Novin\\source\\repos\\MovieClub\\MovieClub.Contracts\\MovieClub.Contracts.csproj",
+        "projectName": "MovieClub.Contracts",
+        "projectPath": "C:\\Users\\Novin\\source\\repos\\MovieClub\\MovieClub.Contracts\\MovieClub.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Novin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Novin\\source\\repos\\MovieClub\\MovieClub.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Novin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Novin\\source\\repos\\MovieClub\\MovieClub.Entity\\MovieClub.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Novin\\source\\repos\\MovieClub\\MovieClub.Entity\\MovieClub.Entity.csproj",
+        "projectName": "MovieClub.Entity",
+        "projectPath": "C:\\Users\\Novin\\source\\repos\\MovieClub\\MovieClub.Entity\\MovieClub.Entity.csproj",
+        "packagesPath": "C:\\Users\\Novin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Novin\\source\\repos\\MovieClub\\MovieClub.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Novin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Novin\\source\\repos\\MovieClub\\MovieClub.Persistance\\MovieClub.Persistance.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Novin\\source\\repos\\MovieClub\\MovieClub.Persistance\\MovieClub.Persistance.csproj",
+        "projectName": "MovieClub.Persistance",
+        "projectPath": "C:\\Users\\Novin\\source\\repos\\MovieClub\\MovieClub.Persistance\\MovieClub.Persistance.csproj",
+        "packagesPath": "C:\\Users\\Novin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Novin\\source\\repos\\MovieClub\\MovieClub.Persistance\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Novin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Novin\\source\\repos\\MovieClub\\MovieClub.Service\\MovieClub.Service.csproj": {
+                "projectPath": "C:\\Users\\Novin\\source\\repos\\MovieClub\\MovieClub.Service\\MovieClub.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Novin\\source\\repos\\MovieClub\\MovieClub.Service\\MovieClub.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Novin\\source\\repos\\MovieClub\\MovieClub.Service\\MovieClub.Service.csproj",
+        "projectName": "MovieClub.Service",
+        "projectPath": "C:\\Users\\Novin\\source\\repos\\MovieClub\\MovieClub.Service\\MovieClub.Service.csproj",
+        "packagesPath": "C:\\Users\\Novin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Novin\\source\\repos\\MovieClub\\MovieClub.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Novin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Novin\\source\\repos\\MovieClub\\MovieClub.Contracts\\MovieClub.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Novin\\source\\repos\\MovieClub\\MovieClub.Contracts\\MovieClub.Contracts.csproj"
+              },
+              "C:\\Users\\Novin\\source\\repos\\MovieClub\\MovieClub.Entity\\MovieClub.Entity.csproj": {
+                "projectPath": "C:\\Users\\Novin\\source\\repos\\MovieClub\\MovieClub.Entity\\MovieClub.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
