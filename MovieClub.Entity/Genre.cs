@@ -8,6 +8,10 @@ namespace MovieClub.Entity
 {
     public class Genre
     {
+        public Genre()
+        {
+        }
+
         public Genre(string title)
         {
             Title = title;

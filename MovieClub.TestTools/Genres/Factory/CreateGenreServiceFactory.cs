@@ -1,4 +1,6 @@
-﻿using MovieClub.Persistance;
+﻿using Moq;
+using MovieClub.Contracts;
+using MovieClub.Persistance;
 using MovieClub.Persistance.Genres;
 using MovieClub.Service.Genres;
 using System;
@@ -11,11 +13,13 @@ namespace MovieClub.TestTools.Genres.Factory
 {
     public class CreateGenreServiceFactory
     {
-        public static GenreAppService Create(EFDataContext context)
+        public static GenreAppService Create(EFDataContext context, DateTime? fakeTime = null)
         {
             var repository = new EFGenreRepository(context);
             var unit = new EFUnitOfWork(context);
-            return new GenreAppService(repository, unit);
+            var dateTimeServiceMock = new Mock<DateTimeService>();
+            dateTimeServiceMock.Setup(_ => _.Now()).Returns(fakeTime ?? new DateTime(2023, 10, 10));
+            return new GenreAppService(repository, unit, dateTimeServiceMock.Object);
         }
     }
 }

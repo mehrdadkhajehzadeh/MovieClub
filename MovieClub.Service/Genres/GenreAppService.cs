@@ -9,16 +9,16 @@ using System.Threading.Tasks;
 
 namespace MovieClub.Service.Genres
 {
-    public class GenreAppService:GenreService
+    public class GenreAppService : GenreService
     {
         private readonly GenreRepository _repository;
         private readonly UnitOfWork _unitOfWork;
-
-
-        public GenreAppService(GenreRepository repository, UnitOfWork unitOfWork)
+        private readonly DateTimeService _dateTimeService;
+        public GenreAppService(GenreRepository repository, UnitOfWork unitOfWork, DateTimeService dateTimeService)
         {
             _repository = repository;
             _unitOfWork = unitOfWork;
+            _dateTimeService = dateTimeService;
         }
 
         public async Task Add(AddGenreDTO dto)
